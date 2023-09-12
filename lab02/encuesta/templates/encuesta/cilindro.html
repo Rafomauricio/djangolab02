@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tarea2</title>
+</head>
+<body>
+    <h2>Tarea-parte2</h2>
+    <form method="post">
+        {% csrf_token %}
+        <label for="diametro">Introduzca el Diámetro en Metros:</label>
+        <input type="number" name="diametro" step="0.01" required><br>
+
+        <label for="altura">Introduzca la Altura en Metros:</label>
+        <input type="number" name="altura" step="0.01" required><br>
+
+        <input type="submit" value="Calcular">
+    </form>
+</body>
+</html>

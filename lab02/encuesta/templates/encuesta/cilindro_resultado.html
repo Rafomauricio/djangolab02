@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Resultado del Cálculo del Volumen</title>
+</head>
+<body>
+    <h2>Resultado del Cálculo del Volumen</h2>
+    <p>Introduzca el Diámetro en Metros: {{ diametro }}</p>
+    <p>Introduzca la Altura en Metros: {{ altura }}</p>
+    <p>El Volumen del Cilindro es: {{ volumen }} metros cúbicos</p>
+    <p><a href="{% url 'encuesta:calcular_cilindro' %}">Vuelva a realizar otra operacion</a></p>
+</body>
+</html>
